@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <h1>Blog</h1>
+    <h1>Reflection</h1>
     <h2>Questions</h2>
     <h3>1) What's your take on the DBC / EDA experience?</h3>
     <p>I am really looking forward to the next 4 months. I'm excited about what I'm going to learn, becasue everything that I have seen and heard about DBC/EDA thus far has been uniformly positive.</p>
@@ -19,6 +19,8 @@
     <h3>5)Are you excited to participate in this kind of learning environment? Does it make you nervous?</h3>
     <p>I would say that I have a decent dose of the first type of fear (that others in my cohort are light-years ahead of me)! I know that it will be a lot of work to get through all the material that we will cover between now and July. I'm really keen on getting to grips with all this stuff though, as I know that getting into the work is what will settle the nerves down.</p>
     
+    <a href="../index.html">Return to home page</a>
+
   </body>
 
 </html>
