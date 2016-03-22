@@ -11,18 +11,18 @@ body{
 }
 
 #header {
-  background-image: url('../images/sunrise.jpg');
+  background-image: url('../images/beach_dawn.jpg');
   height: 100vh;
   background-size: cover;
   margin-bottom: 50px;
 }
 
 #header h1 {
-  color: white;
+  color: black;
 }
 
 #header h3 {
-  color: white;
+  color: black;
 }
 
 
