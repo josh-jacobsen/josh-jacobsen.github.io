@@ -1,40 +1,33 @@
+* {
+  margin: 0px;
+}
 
 body{
   font-family: arial;
 }
 
-.flex-container {
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#header {
   background-image: url('../images/beach_dawn.jpg');
   height: 100vh;
   background-size: cover;
-  margin-bottom: 50px;
 }
 
-#header h1 {
-  color: black;
+/*
+header h1 {
+  color: blue;
 }
+*/
 
 #header h3 {
   color: black;
 }
 
 
-#content {
-  width: 600px;
-  margin: 0 auto 20px;
 
-}
-
-* {
-  margin: 0px;
-}
 
 p {
   margin: 0 0 10px;
@@ -48,4 +41,96 @@ h2 {
   margin: 0 0 10px;
 }
 
+article {
+  margin: 0 auto;
+  width: 92%;
+}
 
+/*
+@media only screen and (min-width: 40em) {
+  .row {
+    background-color: blue;
+  }
+}
+*/
+
+
+
+.row {
+  width: 100%;
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.outer_div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inner_div {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid blue;
+  /*
+  display: flex;
+  justify-content: center; /* align horizontal */
+  /*align-items: center; /* align vertical */
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  /*
+   class="text-align-center"
+  */
+}
