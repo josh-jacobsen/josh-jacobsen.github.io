@@ -1,0 +1,13 @@
+.landing-page {
+  background-image: url("../images/sunrise.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.box {
+  height: 200px;
+}
