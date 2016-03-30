@@ -16,45 +16,75 @@ header {
   background-size: cover;
 }
 
-/*
 header h1 {
-  color: blue;
-}
-*/
-
-#header h3 {
-  color: black;
+  color: white;
 }
 
-
-
+header h3 {
+  color: white;
+}
 
 p {
   margin: 0 0 10px;
 }
 
-h1 {
-  margin: 0 0 10px;
+.header_box {
+  margin: 100px auto;
+  border: 1px solid white;
+  text-align: center;
 }
 
-h2 {
-  margin: 0 0 10px;
-}
-
-article {
-  margin: 0 auto;
+.content {
   width: 92%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-/*
+.blog_heading {
+  border: 1px solid green;
+  justify-content: center;
+  display: flex;
+}
+
+.inner_blog_heading {
+  border: 1px solid pink;
+}
+
+.blog_entries {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inner_div {
+  margin: 0 auto;
+  border: 1px solid blue;
+  text-align: center;
+}
+
 @media only screen and (min-width: 40em) {
-  .row {
-    background-color: blue;
+  .blog_entries {
+    background-color: pink;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .inner_div {
+    width: 40%;
   }
 }
-*/
 
+@media only screen and (min-width: 50em) {
+  .inner_div {
+    width: 25%;
+  }
+}
 
+/* Graveyard
 
 .row {
   width: 100%;
@@ -110,27 +140,4 @@ article {
 .col-12 {
   width: 100%;
 }
-
-.outer_div {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.inner_div {
-  width: 50%;
-  margin: 0 auto;
-  border: 1px solid blue;
-  /*
-  display: flex;
-  justify-content: center; /* align horizontal */
-  /*align-items: center; /* align vertical */
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  /*
-   class="text-align-center"
-  */
-}
+*/
