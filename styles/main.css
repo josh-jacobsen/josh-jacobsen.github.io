@@ -1,3 +1,5 @@
+/* Landing Page */
+
 .landing-page {
   background-image: url("../images/sunrise.jpg");
   background-size: cover;
@@ -8,12 +10,10 @@
   align-items: center;
 }
 
+/* Primary Nav Menu */
+
  nav.primary {
   border: 1px solid orange;
-  width: 90%;
-  margin: 0;
-  text-align: center;
-
 }
 
 nav.primary ul,
@@ -22,7 +22,7 @@ nav.primary ul li {
 }
 
 nav.primary ul li {
-  display: inline;
+  display: inline-block;
   float: left;
   position: relative;
 }
@@ -43,6 +43,15 @@ nav.primary ul li a:hover {
   cursor: pointer;
 }
 
+/* Sub Nav Menu */
+
+nav.primary ul ul {
+  position: absolute;
+  z-index: 999;
+  min-width: 100%;
+}
+
+
 .top {
   align-self: baseline;
 }
@@ -53,10 +62,7 @@ nav.primary ul li a:hover {
   text-align: center;
   border: 5px solid white;
   padding-top: 10px;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 .header-box p>em {
