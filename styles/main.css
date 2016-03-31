@@ -4,8 +4,42 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
+}
+
+ nav.primary {
+  border: 1px solid orange;
+  width: 90%;
+  margin: 0;
+  text-align: center;
+
+}
+
+nav.primary ul,
+nav.primary ul li {
+  margin: 0px;
+}
+
+nav.primary ul li {
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+nav.primary ul li a {
+  display: inline-block;
+  line-height: 42px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding: 0 14px;
+}
+
+.top {
+  align-self: baseline;
 }
 
 .header-box {
@@ -14,6 +48,22 @@
   text-align: center;
   border: 5px solid white;
   padding-top: 10px;
+  align-self: center;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.header-box p>em {
+  color: white;
+}
+
+.header-box p>strong {
+  color: white;
+
+}
+
+.header-box p {
+  color: black;
 }
 
 .title {
