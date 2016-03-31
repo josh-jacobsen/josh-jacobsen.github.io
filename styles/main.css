@@ -38,6 +38,11 @@ nav.primary ul li a {
   padding: 0 14px;
 }
 
+nav.primary ul li a:hover {
+  background: rgba(26, 26, 26, 0.5);
+  cursor: pointer;
+}
+
 .top {
   align-self: baseline;
 }
@@ -50,7 +55,7 @@ nav.primary ul li a {
   padding-top: 10px;
   align-self: center;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .header-box p>em {
