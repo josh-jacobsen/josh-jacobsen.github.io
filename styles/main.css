@@ -29,6 +29,11 @@
   text-align: center;
 }
 
+.blog-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .high {
   height: 100%;
 }
