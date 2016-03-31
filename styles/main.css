@@ -54,8 +54,9 @@ nav.primary ul li a:hover {
   border: 5px solid white;
   padding-top: 10px;
   align-self: center;
-  margin: 0 auto;
-  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
 }
 
 .header-box p>em {
