@@ -1,7 +1,46 @@
+
+
 .landing-page {
   background-image: url("../images/sunrise.jpg");
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box {
+  width: 40%;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+.landing-page h4 {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.title {
+  color: orange;
+  display: block;
+  text-align: center;
+}
+
+.high {
+  height: 100%;
+}
+
+.height-width {
+  height: 100px;
+  width: 500px;
+}
+
+.top-margin {
+  margin-top: 96px;
 }
 
 .border {
@@ -13,9 +52,11 @@
   border: 1px solid blue;
 }
 
+
 .row {
   border: 1px solid teal;
 }
+
 
 .text-center {
   text-align: center;
