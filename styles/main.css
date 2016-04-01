@@ -132,28 +132,22 @@ nav.primary ul li:hover > a {
   font-size: 1em;
 }
 
-.title {
-  color: orange;
-  display: block;
-  text-align: center;
-}
+/* Section Title Formatting */
+
+
+
+
+/* Blog Entry Formatting */
 
 .blog-image {
   max-width: 100%;
   height: auto;
 }
 
-.high {
-  height: 100%;
-}
-
-.height-width {
-  height: 100px;
-  width: 500px;
-}
-
-.top-margin {
-  margin-top: 96px;
+.blog-text {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .border {
@@ -165,20 +159,26 @@ nav.primary ul li:hover > a {
   border: 1px solid blue;
 }
 
-.row {
-  border: 1px solid teal;
-}
-
-.blog-text {
-  padding: 0;
-  margin: 0;
+.section-heading {
   text-align: center;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.padding {
   padding-top: 15px;
 }
+
+section .section-heading a {
+  color: black;
+  cursor: default;
+
+}
+
+section .section-heading a:visited {
+  color: black;
+}
+
+section .section-heading a:hover {
+  color: black;
+  cursor: default;
+}
+
+
+
+
