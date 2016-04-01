@@ -14,6 +14,9 @@
 
  nav.primary {
   border: 1px solid orange;
+  width: 100%;
+  /*text-align: center;*/
+  justify-content: center;
 }
 
 nav.primary ul,
@@ -21,8 +24,13 @@ nav.primary ul li {
   margin: 0px;
 }
 
+nav.primary ul {
+  /*display: inline-block;
+  margin: auto;*/
+}
+
 nav.primary ul li {
-  display: inline-block;
+  display: inline;
   float: left;
   position: relative;
 }
@@ -48,7 +56,29 @@ nav.primary ul li a:hover {
 nav.primary ul ul {
   position: absolute;
   z-index: 999;
+
+  height: 0px;
+  overflow: hidden;
+
   min-width: 100%;
+}
+
+nav.primary ul li:hover ul {
+  height: auto;
+  overflow: auto;
+}
+
+nav.primary ul ul li {
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+nav.primary ul ul li a {
+  display: block;
+  line-height: 35px;
+  text-transform: none;
 }
 
 
@@ -56,26 +86,33 @@ nav.primary ul ul {
   align-self: baseline;
 }
 
+/* Header Box */
+
 .header-box {
   width: 40%;
   color: white;
   text-align: center;
+  line-height: 35px;
   border: 5px solid white;
   padding-top: 10px;
   margin-top: 15%;
+  background-color: rgba(255, 255, 255, 0.2)
 }
 
 .header-box p>em {
   color: white;
+  font-size: 1.5em;
 }
 
 .header-box p>strong {
   color: white;
-
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .header-box p {
-  color: black;
+  color: white;
+  font-size: 1em;
 }
 
 .title {
