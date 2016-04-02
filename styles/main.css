@@ -143,7 +143,7 @@ nav.primary ul li:hover > a {
 
 .blog-image {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .blog-text {
@@ -194,6 +194,25 @@ section .section-heading a:hover {
   padding-top: 20px;
   padding-bottom: 15px;
 }
+
+
+.rotate {
+  transform: rotate(90deg);
+  border: 1px solid green;
+  margin-top: 100px;
+}
+
+.rotate-lower {
+  margin-top: 200px;
+  transform: rotate(90deg);
+  margin-bottom: 100px;
+}
+
+.blog-thumbnail {
+  height: 100%;
+  width: 100%;
+}
+
 
 
 
