@@ -3,7 +3,11 @@
 /* Landing Page */
 
 .landing-page {
-  background-image: url("../images/sunrise.jpg");
+  /*background-image: url("../images/sunrise.jpg");*/
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/waves.jpg");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -72,14 +76,11 @@ nav.primary ul ul {
   -o-transition: opacity 0.4s ease-out;
   -ms-transition: opacity 0.4s ease-out;
   transition: opacity 0.4s ease-out;
-
 }
 
 nav.primary ul li:hover ul {
   opacity: 10;
   filter: alpha(opacity=100);
-
-
   height: auto;
   overflow: auto;
 }
@@ -111,21 +112,26 @@ nav.primary ul li:hover > a {
   width: 40%;
   color: white;
   text-align: center;
-  line-height: 35px;
+  line-height: 28px;
   border: 5px solid white;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-top: 15%;
   background-color: rgba(255, 255, 255, 0.2)
 }
 
 .header-box p>em {
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
+  
+  font-family: 'Courgette', cursive;
+
+  
+
 }
 
 .header-box p>strong {
   color: white;
-  font-size: 1.7em;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
