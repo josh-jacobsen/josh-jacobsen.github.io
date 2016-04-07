@@ -5,8 +5,8 @@
 .landing-page {
   /*background-image: url("../images/sunrise.jpg");*/
   background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ), url("../images/waves.jpg");
   background-size: cover;
   height: 100vh;
@@ -20,8 +20,18 @@
 
  nav.primary {
   width: 100%;
-  /*text-align: center;*/
+  text-align: center;
   justify-content: center;
+  background-color: white;
+  
+
+  /*box-shadow: 10px 10px 5px rgba(0, 0, 0, .8);*/
+
+
+  /*box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  border-bottom: 8px solid rgba(0, 0, 0, 0.8)*/
 }
 
 nav.primary ul,
@@ -35,15 +45,15 @@ nav.primary ul {
 }
 
 nav.primary ul li {
-  display: inline;
-  float: left;
+  display: inline-block;
+  float: center;
   position: relative;
 }
 
 nav.primary ul li a {
-  display: inline-block;
+  display: inline;
   line-height: 42px;
-  color: white;
+  color: #567;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -122,11 +132,7 @@ nav.primary ul li:hover > a {
 .header-box p>em {
   color: white;
   font-size: 2em;
-  
   font-family: 'Courgette', cursive;
-
-  
-
 }
 
 .header-box p>strong {
@@ -143,7 +149,25 @@ nav.primary ul li:hover > a {
 /* Section Title Formatting */
 
 
+/* Photo Formatting */
+.main-photo {
+  height: 100%;
+  width: 100%;
+}
 
+.circular {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  overflow: hidden;
+}
+
+/*.circular {
+  height: 500px;
+  width: 500px;
+  border-radius: 250px;
+  background: url("../images/Gaza.JPG") no-repeat;
+}*/
 
 /* Blog Entry Formatting */
 
