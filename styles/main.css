@@ -16,6 +16,8 @@
   align-items: center;
 }
 
+/* End of Landing Page */
+
 /* Primary Nav Menu */
 
  nav.primary {
@@ -23,25 +25,11 @@
   text-align: center;
   justify-content: center;
   background-color: white;
-  
-
-  /*box-shadow: 10px 10px 5px rgba(0, 0, 0, .8);*/
-
-
-  /*box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  border-bottom: 8px solid rgba(0, 0, 0, 0.8)*/
 }
 
 nav.primary ul,
 nav.primary ul li {
   margin: 0px;
-}
-
-nav.primary ul {
-  /*display: inline-block;
-  margin: auto;*/
 }
 
 nav.primary ul li {
@@ -65,20 +53,18 @@ nav.primary ul li a:hover {
   background: rgba(255, 255, 255, 0.3);
   cursor: pointer;
 }
+/* End of Primary Nav Menu */
+
 
 /* Sub Nav Menu */
 
 nav.primary ul ul {
   opacity: 0;
   filter: alpha(opacity=0);
-
-
   position: absolute;
   z-index: 999;
-
   height: 0px;
   overflow: hidden;
-
   min-width: 100%;
 
   -webkit-transition: opacity 0.4s ease-out;
@@ -112,9 +98,7 @@ nav.primary ul li:hover > a {
   background-color: rgba(255, 255, 255, 0.3)
 }
 
-.top {
-  align-self: baseline;
-}
+/* End of Sub Nav Menu */
 
 /* Header Box */
 
@@ -146,11 +130,10 @@ nav.primary ul li:hover > a {
   color: white;
   font-size: 130%;
 }
-/* Section Title Formatting */
 
-/* Photo Formatting */
+/* End of Header Box */
 
-
+/* Profile Photo Formatting */
 .circular {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -292,3 +275,34 @@ a:hover {
   margin: 0 auto;
   border-radius: 50%;
 }
+
+.heading-colour {
+  color: #567;
+  text-align: center;
+}
+
+.blog-heading-text {
+  margin: 0;
+}
+
+#dateline {
+  margin: 0;
+}
+
+#space-between-blog-posts {
+  padding-bottom: 55px;
+}
+
+#space-between-sections {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid green;
+}
+
+/* +++++++++++++ CSS FOR BLOG HOMEPAGE ++++++++++++++++ */ 
+
+
+
+
+
+/* +++++++++++++ END OF CSS FOR BLOG HOMEPAGE ++++++++++++++++ */ 

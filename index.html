@@ -31,14 +31,7 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About Me</a></li>
-          <li><a href="#blog">Blog</a>
-              <!-- Children of Blog Posts Entry; not needed 
-              <ul>
-                <li><a href="blog/c3-meditation-process.html">Cultural Blog 3</a></li>
-                <li><a href="blog/t3-design-to-web-blog.html">Technical Blog 3</a></li>
-              </ul>
-              -->
-            </li>
+          <li><a href="blog/blog-homepage.html">Blog</a></li>
           <li><a href="#contactme">Contact</a></li>
           <li><a href="#resources">Useful Resources</a></li>
         </ul>
@@ -60,6 +53,9 @@
 
   <section><!-- about me section heading -->
     <div class="container">
+      <div class="row" id="space-between-sections">
+      </div><!-- end of spacer row between sections -->
+
       <div class="row">
         <div class="twelve columns">
           <h2 class="section-heading">About me</h2>
@@ -71,9 +67,15 @@
         </div><!-- end of four colums -->
       </div><!-- end of row -->
       <div class="row">
-        <div class="six columns box">
-        </div><!-- end of six columns -->
-        <div class="six columns box">
+        <div class="four columns offset-by-four padding-top">
+          <h3 class="heading-colour">Josh Jacobsen</h3>
+        </div>
+      </div><!-- end of row -->
+      <div class="row">
+        <div class="eight columns offset-by-two">
+          <p>
+            I'm a software developer-in-training based in Auckland, attending the Enspiral Dev Academy (EDA) course from March to July 2016. Each student has a similar site that serves as an online portfolio, holding blog posts we have written, projects we have completed, and serving as a testing ground where we can implement the techniques we are learning in class. You will find that the site changes on a regular basis as I am exposed to different ways of creating an engaging website through the course cirriculum. Feel free to check back regularly and have a look at what we have learnt. 
+          </p>
         </div><!-- end of six columns -->
       </div><!-- end of row -->
     </div><!-- end of container -->
@@ -81,68 +83,96 @@
 
   <section><!-- blog posts section -->
     <div class="container">
+      <div class="row" id="space-between-sections">
+      </div><!-- end of spacer row between sections -->
+
       <div class="row">
         <div class="twelve columns">
-          <h2 class="section-heading"><a name="blog">Blog posts</a></h2>
+          <h2 class="section-heading"><a name="blog">Latest Blog Posts</a></h2>
         </div>
       </div><!-- end of row -->
 
       <div class="row">
 
-          <div class="four columns">
-            <a href="blog/c3-meditation-process.html"><img class="blog-image" src="images/kitesurf.jpg" alt="kites">
-            <h5 class="blog-text">Cultural Blog 3: Meditation and Process</h5>
-            <p class="blog-text">
-              4th April 2016
-            </p></a>
-            <!-- <a href="/blog/t3-design-to-web-blog.html"> -->
-          </div>
+        <div class="three columns offset-by-one">
+          <a href="blog/c3-meditation-process.html"><img class="blog-image" src="images/kitesurf.jpg" alt="kites"></a>
+        </div>
 
+        <div class="seven columns">
+          <h5 class="blog-heading-text">Meditation and Process</h5>
+          <p id="dateline"><em>4th April 2016</em></p>
+          <p>
+            I'm not going to lie, sticking to the "process over product" approach this week was tough for me...<a href="blog/c3-meditation-process.html">(click to read more)</a>
+          </p>        
+        </div><!-- end of seven columns -->
 
-          <div class="four columns">
-            <a href="blog/t3-design-to-web-blog.html"><img class="blog-image" src="images/canoes.jpg" alt="canoes">
-            <h5 class="blog-text">Technical Blog 3: Design to Web</h5>
-            <p class="blog-text">
-              2nd April 2016
-            </p></a>
-          </div>
-
-          <div class="four columns">
-            <a href="blog/t2-html-css-dom-p2.html"><img class="blog-image" src="images/turn.jpg" alt="turn">
-            <h5 class="blog-text">Technical Blog 2: HMTL, CSS, and DOM (Part 2) </h5>
-            <p class="blog-text">
-              23rd March 2016
-            </p></a>
-          </div>
+        <div class="one column">
+        </div><!-- end of one column -->
       </div><!-- end of row -->
+
+      <div class="row" id="space-between-blog-posts"><!-- spacer row -->
+      </div><!-- end of spacer row -->
+
       <div class="row">
-        <div class="four columns">
-          <a href="blog/t2-html-css-dom-p1.html"><img class="blog-image" src="images/bay.jpg" alt="Bay">
-          <h5 class="blog-text">Technical Blog 2: HTML, CSS, and DOM (Part 1)</h5>
-          <p class="blog-text">
-            23rd March 2016
-          </p></a>
+        <div class="three columns offset-by-one">
+          <a href="blog/t3-design-to-web-blog.html"><img class="blog-image" src="images/canoes.jpg" alt="canoes"></a>
+
         </div>
-        <div class="four columns">
-          <a href="blog/c2-emotional-intelligence.html"><img class="blog-image" src="images/kitesurfer.JPG" alt="Kitesurfer">
-          <h5 class="blog-text">Cultural Blog 2: Emotional Intelligence</h5>
-          <p class="blog-text">
-            17th March 2016
-          </p></a>
+        <div class="seven columns">
+          <h5 class="blog-heading-text">Design to Web</h5>
+          <p id="dateline">
+            <em>2nd April 2016</em>
+          </p>
+          <p class="blog-heading-text">
+            This week we looked at the concepts of responsiveness, mobile-first development, and frameworks. Ever get the feeling you're drinking from a firehose?...<a href="blog/t3-design-to-web.html">(click to read more)</a>
+          </p>        
+        </div><!-- end of seven columns -->
+        <div class="one column">
+        </div><!-- end of one column -->
+      </div><!-- end of row -->
+
+      <div class="row" id="space-between-blog-posts"><!-- spacer row -->
+      </div><!-- end of spacer row -->
+
+      <div class="row">
+        <div class="three columns offset-by-one">
+          <a href="blog/t2-html-css-dom-p2.html"><img class="blog-image" src="images/turn.jpg" alt="turn"></a>
         </div>
-        <div class="four columns">
-          <a href="blog/c1-time-and-habits-blog.html"><img class="blog-image" src="images/petra.jpg" alt="Petra">
-          <h5 class="blog-text">Cultural Blog 1: Time and Habits</h5>
-          <p class="blog-text">
-            16th March 2016
-          </p></a>
+        <div class="seven columns">
+          <h5 class="blog-heading-text">HTML. CSS, and the DOM (part 2)</h5>
+          <p id="dateline">
+            <em>23rd March 2016</em>
+          </p>
+          <p class="blog-heading-text">
+            This is the second part of my blog post devling into HTML, CSS, and the DOM. The focus this week was on grid based design and semantic structure...<a href="blog/t2-html-css-dom-p2">(click to read more)</a>
+          </p>
+        </div>
+        <div class="one column">
         </div>
       </div><!-- end of row -->
     </div><!-- end of container -->
   </section><!-- end of blog posts section -->
 
+
+
+
+  <section><!-- projects section -->
+    <div class="container">
+      <div class="row border" id="space-between-sections">
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h2 class="center">Projects</h2>
+        </div>
+      </div><!-- end of row -->
+    </div><!-- end of container -->
+  </section><!-- end of projects section -->
+
+
   <section><!-- contact me section -->
     <div class="container">
+      <div class="row" id="space-between-sections">
+      </div><!-- end of spacer row between sections -->
       <div class="row">
         <div class="twelve columns">
           <h2 class="section-heading"><a name="contactme">Contact me</a></h2>
@@ -155,32 +185,7 @@
     </div><!-- end of container -->
   </section><!-- end of contact me section -->
 
-  <section><!-- resources section -->
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <h2 class="section-heading"><a name="resources">Useful Resources</a></h2>
-        </div>
-      </div><!-- end of row -->
-      <div class="row">
-        <div class="four columns box">
-          <ul>
-            <li><a href="https://www.w3.org/TR/CSS2/selector.html">CSS Selectors</a></li>
-          </ul>
-        </div><!-- end of four columns -->
-        <div class="four columns box">
-          <ul>
-            <li><a href="https://www.w3.org/TR/CSS2/selector.html">CSS Selectors</a></li>
-          </ul>
-        </div><!-- end of four columns -->
-        <div class="four columns box">
-          <ul>
-            <li><a href="https://www.w3.org/TR/CSS2/selector.html">CSS Selectors</a></li>
-          </ul>
-        </div><!-- end of four columns -->
-      </div><!-- end of row -->
-    </div><!-- end of container -->
-  </section><!-- end of contact me section -->
+ 
 
 </body>
 </html>
