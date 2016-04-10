@@ -21,12 +21,11 @@
 </head>
 <body>
 
-
   <nav class="primary">
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="#">About Me</a></li>
-      <li><a href="#blog">Latest Blog Posts</a></li>
+      <li><a href="#blog">Blog</a></li>
       <li><a href="#contactme">Contact</a></li>
       <li><a href="#resources">Useful Resources</a></li>
     </ul>
@@ -37,25 +36,7 @@
 
   <section>
     <div class="container">
-      <div class="row">
-        <div class="three columns">
-          <h2 class="blog-title"></h2>
-        </div><!-- end of three columns -->
-        <div class="nine columns">
-          <h3 class="blog-title">Cultural Blog 4:</h3>
-        </div><!-- end of nine columns --> 
-      </div><!-- end of row -->
-
-      <div class="row">
-        <div class="three columns">
-          <h2 class="blog-title"></h2>
-        </div><!-- end of three columns -->
-        <div class="nine columns offset-by-three">
-          <h4 class="blog-title">Daily mindfulness</h4>
-        </div><!-- end of twelve columns --> 
-      </div><!-- end of row -->
-
-      <div class="row">
+      <div class="row padding-top">
         <div class="three columns grey-background">
           <h5 class="center">Recent Posts</h5>
           <nav class="primary">
@@ -69,37 +50,92 @@
           </nav>
         </div><!-- end of six columns -->
         <div class="nine columns">
-          <p>
-               How does JavaScript compare to HTML and CSS?
-               Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.
-               Explain the difference between accessing data from arrays and object literals.
-               Explain what functions are and why they are useful.
-          </p>
-
+          <h3 class="blog-title">Javascript Basics</h3>
+          
           <p>
             This week we began to cover Javacript, to supplement our nacent knowledge of HTML and CSS. If we think of HTML as a human body and CSS as the clothes that we cover the body in to give it a presentable appearance, then Javacript are the nerve, tendons and ligaments that enable the body (and the clothes that cover it) to respond to inputs and stimulus. For example if the nerves of the body register pain, the reaction, transmitted through the nerves and tendons, is to pull that body part away. Javascript functions in the same way to cause a website to react on input from mouse clicks, scrolling, and similar stimulus. 
           </p>
+          <h5>Control Flow</h5>
           <p>
-            Control flow and loops in Javacript can be likened to eating at a buffet while hungry.
+            Control flow and loops are structures used to control actions in a Javascript program. They perform actions if certain prerequisites are met. We can use the example of eating at a buffet as a way of demonstrating control flow and loops. 
+          </p>
 
-            1) Ask the question: Are you hungry? 
-              If yes, go to step 2. 
-              If no, then go to the counter and pay 
+          <blockquote>
+            <pre>
+              <code>
 
-            2) Put food on plate. 
+  1) Ask the question: Are you hungry? 
+    If yes, go to step 2. 
+    If no, then go to the counter and pay 
 
-            3) Ask the question: Is this sufficient food? 
-              a) If no, contiune putting food on plate 
-                 Then ask the question again 
-              b) If yes, sit down and eat food. 
+  2) Put food on plate. 
 
-            4) After eating food, return to the question 1. If still hungry, repeat last sequence. If not, then pay for food and leave   
+  3) Ask the question: Is this sufficient food? 
+    a) If no, contiune putting food on plate, 
+    and re-ask the question 
+    b) If yes, sit down and eat food. 
+
+  4) After eating food, return to the question 1. If still 
+  hungry, repeat last sequence. If not, then pay for food 
+  and leave   
+                
+              </code>
+            </pre>
+
+          </blockquote>
+        
+          <h5>
+            Objects and Arrays
+          </h5>
+
+          <p>
+            In Javascript, an object is a data type; it is an unordered list of data stores as a series of name(or key)-value pairs.  
+
+            We could create an object that contains my personal data for example. That my first name is Josh, I like at the 2nd house on my street, my favourite colour is blue, and the type of car I drive is a Hyundai. The syntax for creating this object would look something like:
+          </p>
+          
+          <blockquote>
+            <pre>
+              <code>
+    var josh = {
+    firstName: "Josh";
+    favColour: "blue";
+    houseNum: 2;
+    carType: "Hyundai";
+    }
+              </code>
+            </pre>
+          </blockquote>  
+           
+          
+          <p>
+            To access data from an object we refer to the "named index" that contains the property that we want. We do this using either dot or bracket notation which relates to the index we are trying to access. For example using the following code:
+          </p>
+          <blockquote>
+            <pre>
+              <code>
+  var name = josh.firstName and 
+  var name = josh("firstName") 
+                
+              </code>
+            </pre>
+          </blockquote>
+          <p> 
+            Would both result in the new variable "name" having the value "Josh" assigned to it. 
           </p>
           <p>
-            In order to sustain my practise of medidation, I am likely to use the second method suggested, that of doing less that you are actually able to do. In fact this is what I do at the moment. I have found that 2 minutes of meditation is a good period for me at the moment. While I could sustain a longer period of medidation, 2 minutes is much eaiser to achive. I will keep it at this length until I have built up the habit of regular medidation. By the time I have made meditation part of my daily routiene, it is likely that I will want to increase the length of time that I spend doing it on each iteration. If I was to force myself to meditate for longer at this stage, I run the risk of becoming bored and abandoning the activity in favour of something else. 
+            An array on the other hand is a list-like type of object that are used to store multiple values in a single object.  
+
+            To create an array of fruit for example, we could write the followinng code:
+
+            var fruit = [banana, pear, orange, apple]; 
+
+            Arrays use "numbered indexes" to retrieve data, in contrast to the "named indexes" of objects. Numbers in arrays start from 0, so to access the value "banana" we would write something like:
+            var iFeelLike = fruit[0]
           </p>
+          <h5>Functions in Javascript</h5>
           <p>
-            I like the concent that Meng raised in this chapter of walking medidation. I already find that going for a walk is a good way for me to create space to think through and process things that are going on in my life. I can see how I can eaisily incorporate some of the aspects of walking medidation into something that I already do (my focusing on lifting my feet, the weight transfer that happens, etc.). The next time that I am walking somewhere, I am going to try to incorporate some of the aspects of walking meditation. 
+            Functions in Javacript are blocks of code written to perform a certain task (or function). They are useful in that they allow a peice of code to be written once and then called multiple other times throughout a program.  
           </p>
 
         </div><!-- end of nine columns -->
