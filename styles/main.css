@@ -120,9 +120,9 @@ nav.primary ul li:hover > a {
   font-family: 'Arapey', serif;
 }
 
-.header-box p>strong {
+.header-box h5>strong {
   color: white;
-  font-size: 130%;
+  font-size: 100%;
   text-transform: uppercase;
 }
 
@@ -285,15 +285,15 @@ a:hover {
   margin: 0;
 }
 
-#dateline {
+.dateline {
   margin: 0;
 }
 
-#space-between-blog-posts {
+.space-between-blog-posts {
   padding-bottom: 55px;
 }
 
-#space-between-sections {
+.space-between-sections {
   padding-top: 30px;
   padding-bottom: 30px;
 }
