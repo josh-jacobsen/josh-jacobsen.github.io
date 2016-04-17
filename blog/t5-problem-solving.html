@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+
+  <!-- Mobile Specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+<!-- Favicon-->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <nav class="primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contactme">Contact</a></li>
+      <li><a href="#resources">Useful Resources</a></li>
+    </ul>
+  </nav>
+
+  <section class="blog-img-heading">
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="row padding-top">
+        <div class="three columns grey-background">
+          <h5 class="center">Recent Posts</h5>
+          <nav class="primary">
+            <ul>
+              <li><a href="#">Technical 3</a></li>
+              <li><a href="#">Cultural 3</a></li>
+              <li><a href="#">Technical 2</a></li>
+              <li><a href="#">Cultural 2</a></li>
+              <li><a href="#">Cultural 1</a></li>
+            </ul>
+          </nav>
+        </div><!-- end of six columns -->
+        <div class="nine columns">
+          <h3 class="blog-title">Problem Solving</h3>
+          <h5>Troubleshoting</h5>
+          <p>
+            Getting blocked on simple problems is pretty much a theme at this point in my programming career. One of the issues I struggled with in this week's Javascript assignment was how to use a for loop to assign Id's to each item in an array. The issue I had was how to write the expression that would assign the Id and that would change on each iteration. Each time I tried, it would either through an error and the page would not run, or else I would end up with each item getting the same Id, as the assignment statement would not change. 
+          </p>
+          <p>
+            The way I ended up solving the problem was to create another array of Id's, then draw from this array to assign the Id's to each item. There is probably a more elegant way of solving the problem, but I was quietly stoked with this solution, as it had taken a significant ammount of work (googling, etc) to find. 
+          </p>
+          <h5>Problem Solving Techniques</h5>
+          <ul>
+            <li><em>Pseudocode</em></li>
+            <p>
+              I don't really use pseudocode much at the moment. Its likely something that I'll start using more often in the future though
+            </p>
+            <li><em>Trying something</em></li>
+            <p>
+              This is my go-to method. Usually when I have a problem I will go back to the last point at which I has something working, and then use <em>console.log</em> to progressively step through the program, reading any <em>error messages</em> that come out
+            </p>
+            <li><em>Rubber ducky method</em></li>
+            <p>
+              I often suffer in silence until figuring out whats going on, though maybe this would be a good thing to try
+            </p>
+            <li><em>Googling</em></li>
+            <p>
+              This I do a lot of. Usually when I've gone through my troubleshooting routine of going back to the last point at which I had a working script and using console.log and reading the error messages, I will then take this information to Google and go through Stack Overflow and other sites, as for all the problems I'm encountering at the moment, there is usually something there
+            </p>
+            <li><em>Asking your peers and coaches for help</em></li>
+            <p>
+              As we go forward with the course I can see that asking peers and coaches is going to become a bigger part of my troubleshooting protocol
+            </p>
+            <li><em>Improving your process with reflection</em></li>
+            <p>
+              When I've solved a problem, I find that I will reflect on it at length and try and imagine other situations when the same thing might be effective
+            </p> 
+          </ul>
+          
+          <h5>Javascript functions</h5>
+
+          <p>
+            <strong>.map(): </strong> .map() takes a callback function and iterates through an array applying the callback function once to each element. It creates a new array with the results of the callback function. 
+          </p>
+          <p>
+            <strong>.filter(): </strong> .filter() takes a callback function and iterates through an array applying the callback function once to each element. It creates a new array with the elements of the array that passed the test provided by the callback function. 
+          </p>
+          <p>
+            <strong>.reduce(): </strong> .reduce() is a bit different, in that it can be used in a vareity of ways. Like the functions mentioned above, it applies a callback function to each element of an array. The return value is an accumulated total, which is then supplied as the argument for the next calback function.
+
+          </p>
+
+        </div><!-- end of nine columns -->
+      </div><!-- end of row -->
+    </div><!-- end of container -->
+
+  </section>
+</body>
+</html>
