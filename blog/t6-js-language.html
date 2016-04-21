@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+
+  <!-- Mobile Specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+<!-- Favicon-->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <nav class="primary">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contactme">Contact</a></li>
+      <li><a href="#resources">Useful Resources</a></li>
+    </ul>
+  </nav>
+
+  <section class="blog-img-heading">
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="row padding-top">
+        <div class="three columns grey-background">
+          <h5 class="center">Recent Posts</h5>
+          <nav class="primary">
+            <ul>
+              <li><a href="#">Technical 3</a></li>
+              <li><a href="#">Cultural 3</a></li>
+              <li><a href="#">Technical 2</a></li>
+              <li><a href="#">Cultural 2</a></li>
+              <li><a href="#">Cultural 1</a></li>
+            </ul>
+          </nav>
+        </div><!-- end of six columns -->
+        <div class="nine columns">
+          <h3 class="blog-title">Javascript Language Symbols</h3>
+          <h5>Parentheses</h5>
+          <p>Parentheses (()) are used most often in Javascript at the end of functions. When creating a function, arguments are placed within the parentheses that can be used within the function. In the following example, the argument "event" is passed to the function in order to determine which key was pressed:
+          <blockquote>
+            <pre>
+              <code>
+    function keyUsed(event) {
+      // key a
+      if (event.which === 65){
+          findActive("stripPlayer:1");
+      }
+      // key s
+      else if (event.which === 83) {
+          findActive("stripPlayer:2")
+      }
+      // key d
+      else if (event.which === 68) {
+          findActive("stripPlayer:3")
+      }
+      // key f
+      else if (event.which === 70) {
+          findActive("stripPlayer:4")
+      }
+    }
+              </code>
+            </pre>
+          </blockquote>
+          </p>
+
+          <h5>Brackets</h5>
+          <p>Brackets ([]) are used when creating arrays. In the following example, a list of skills is created using brackets:
+          <blockquote>
+            <pre>
+              <code> var skills = ["HTML", "CSS", "JavaScript", "Node.js"],</code>
+            </pre>
+          </blockquote>
+
+
+          </p>
+          <h5>Braces</h5>
+          <p>Braces ({}) are used when creating loops, functions, and objects. In the following example, braces encapsulate the actions carried out in the body of the for loop:
+          <blockquote>
+            <pre>
+              <code>
+
+    for (i = 0; i < game_players; i++){
+        var cells = rows[i].getElementsByTagName("td");
+        for (j = 0; j < cells.length; j++) {
+            cells[0].className = "active";
+        }
+    }
+              </code>
+            </pre>
+          </blockquote>
+          </p>
+          <h5>Single and Double Quotes</h5>
+          <p>Single and single quotes can be used almost interchangably in JavaScript, unlike in some other langages. Quotes are used to define stings. If we look at the block of code used in the <span>brackets</span> example, the quotation marks mean that the skills are string objects, as opposed to being variables:
+            <blockquote>
+              <pre>
+                <code> var skills = ["HTML", "CSS", "JavaScript", "Node.js"],</code>
+              </pre>
+            </blockquote>
+         </p>
+
+        </div><!-- end of nine columns -->
+      </div><!-- end of row -->
+    </div><!-- end of container -->
+
+  </section>
+</body>
+</html>
