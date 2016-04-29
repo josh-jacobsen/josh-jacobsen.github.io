@@ -6,7 +6,7 @@
   /*background-image: url("../images/sunrise.jpg");*/
   background: linear-gradient(
       rgba(0, 0, 0, 0.0),
-      rgba(0, 0, 0, 0.0)
+      rgba(0, 0, 0, 0.7)
     ), url("../images/forrest-waterfall.jpg");
   background-size: cover;
   height: 100vh;
@@ -103,6 +103,82 @@ nav.primary ul li:hover > a {
 /* Header Box */
 
 .header-box {
+  width: 70%;
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  border: 5px solid white;
+  padding-top: 30px;
+  margin-top: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  //background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-box p>em {
+color: white;
+font-size: 140%;
+//font-weight: bold;
+/*font-family: 'Courgette', cursive;*/
+font-family: 'Arapey', serif;
+}
+
+.header-box h5>strong {
+color: white;
+//font-size: 100%;
+//font-size:200;
+font-size: 180%;
+text-transform: uppercase;
+}
+
+.header-box p {
+color: white;
+font-size: 130%;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  /* Header Box */
+
+  .header-box {
+    width: 70%;
+    color: white;
+    text-align: center;
+    line-height: 28px;
+    border: 5px solid white;
+    padding-top: 30px;
+    margin-top: 20%;
+    background-color: rgba(0, 0, 0, 0.2);
+    //background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .header-box p>em {
+  color: white;
+  font-size: 160%;
+  //font-weight: bold;
+  /*font-family: 'Courgette', cursive;*/
+  font-family: 'Arapey', serif;
+  }
+
+  .header-box h5>strong {
+  color: white;
+  //font-size: 100%;
+  //font-size:200;
+  font-size: 200%;
+  text-transform: uppercase;
+  }
+
+  .header-box p {
+  color: white;
+  font-size: 140%;
+  }
+}
+
+/* Larger than phablet */
+// @media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .header-box {
   width: 40%;
   color: white;
   text-align: center;
@@ -110,26 +186,100 @@ nav.primary ul li:hover > a {
   border: 5px solid white;
   padding-top: 30px;
   margin-top: 20%;
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
-.header-box p>em {
+  background-color: rgba(0, 0, 0, 0.2);
+  //background-color: rgba(0, 0, 0, 0.4);
+  }
+  .header-box p>em {
   color: white;
-  font-size: 130%;
+  font-size: 150%;
+  //font-weight: bold;
   /*font-family: 'Courgette', cursive;*/
   font-family: 'Arapey', serif;
-}
+  }
 
-.header-box h5>strong {
+  .header-box h5>strong {
   color: white;
-  font-size: 100%;
+  //font-size: 100%;
+  font-size: 200%;
   text-transform: uppercase;
-}
+  }
 
-.header-box p {
+  .header-box p {
   color: white;
   font-size: 130%;
+  }
 }
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .header-box {
+  width: 40%;
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  border: 5px solid white;
+  padding-top: 30px;
+  margin-top: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  //background-color: rgba(0, 0, 0, 0.4);
+  }
+  .header-box p>em {
+  color: white;
+  font-size: 170%;
+  //font-weight: bold;
+  /*font-family: 'Courgette', cursive;*/
+  font-family: 'Arapey', serif;
+  }
+
+  .header-box h5>strong {
+  color: white;
+  //font-size: 100%;
+  font-size: 200%;
+  text-transform: uppercase;
+  }
+
+  .header-box p {
+  color: white;
+  font-size: 130%;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .header-box {
+  width: 45%;
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  border: 5px solid white;
+  padding-top: 30px;
+  margin-top: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  //background-color: rgba(0, 0, 0, 0.4);
+  }
+  .header-box p>em {
+  color: white;
+  font-size: 180%;
+  //font-weight: bold;
+  /*font-family: 'Courgette', cursive;*/
+  font-family: 'Arapey', serif;
+  }
+
+  .header-box h5>strong {
+  color: white;
+  //font-size: 100%;
+  font-size: 200%;
+  text-transform: uppercase;
+  }
+
+  .header-box p {
+  color: white;
+  font-size: 150%;
+  }
+}
+
+
+
 
 /* End of Header Box */
 
