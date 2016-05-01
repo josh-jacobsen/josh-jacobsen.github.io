@@ -103,36 +103,44 @@ nav.primary ul li:hover > a {
 /* Header Box */
 
 .header-box {
-  width: 70%;
-  color: white;
+  width: 60%;
+  //color: white;
   text-align: center;
   line-height: 28px;
-  border: 5px solid white;
-  padding-top: 30px;
+  border: 2px solid white;
+  padding: 0px;
   margin-top: 20%;
   background-color: rgba(0, 0, 0, 0.2);
   //background-color: rgba(0, 0, 0, 0.4);
 }
 
-.header-box p>em {
+#passion {
 color: white;
-font-size: 140%;
+font-size: 180%;
 //font-weight: bold;
 /*font-family: 'Courgette', cursive;*/
 font-family: 'Arapey', serif;
+//font-style: italic;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
-.header-box h5>strong {
+#developer {
 color: white;
 //font-size: 100%;
 //font-size:200;
 font-size: 180%;
 text-transform: uppercase;
+margin: 0;
 }
 
-.header-box p {
+#training {
 color: white;
-font-size: 130%;
+font-size: 180%;
+font-family: 'Arapey', serif;
+//font-style: italic;
+margin-top: 10px;
+margin-bottom: 15px;
 }
 
 /* Larger than mobile */
