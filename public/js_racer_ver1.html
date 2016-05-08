@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submarine Captain</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="css/js_racer_ver1.css">
+
+</head>
+
+<body>
+
+  <div id="main-container" class="border">
+
+    <h1 class="center">Submarine Captain</h1>
+
+    <h3 class="center">Use the left home keys (a, s, d, f) to control the torpedoes</h3>
+
+
+    <div id="button-div">
+      <button id="start" type="button" onclick="start_game()">Start Game</button>
+      <button id="restart" type="button" onclick="restart()">Restart</button>
+    </div>
+
+    <div id="play-area">
+
+      <div id="sub">
+      </div>
+
+      <div id="table">
+
+        <div id="centered-content" class="border">
+        </div>
+      </div>
+
+      <div id="ship">
+      </div>
+
+    </div><!-- end of play area -->
+
+  </div><!-- end of main container -->
+
+
+  <audio id="missile_impact" src="sounds/missile_impact.mp3" type="audio/mpeg"></audio>
+
+  <script src="js/js_racer_ver1.js"></script>
+
+</body>
+
+</html>

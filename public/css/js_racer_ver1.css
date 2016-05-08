@@ -1,0 +1,103 @@
+body {
+  background-color: #00BFFF;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button-div {
+  padding-bottom: 50px;
+}
+
+#play-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #00BFFF;
+}
+
+#table{
+  display: flex;
+  justify-content: center;
+}
+
+#centered-content {
+  align-self: center;
+  width: 100%;
+}
+
+#sub {
+  min-height: 200px;
+  min-width: 200px;
+  //background-image: url("../images/impact.gif");
+  //background-image: url("../images/submarine.jpg");
+  background-size: 200px 200px;
+}
+
+#ship {
+  min-height: 200px;
+  min-width: 200px;
+  //background-image: url("../images/impact.gif");
+  //background-image: url("../images/ship.jpg");
+  background-size: 200px 200px;
+}
+
+#impact {
+  height: 200px;
+  width: 200px;
+  background-image: url("../images/js_racer_ver1/impact.gif");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.active {
+  background-image: url("../images/js_racer_ver1/torpedo.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+td {
+  height: 40px;
+  width: 40px;
+}
+
+.#player0track .active {
+  background-image: url("../images/js_racer_ver1/yellow_car.jpeg");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+#player1track .active {
+  background-image: url("../images/js_racer_ver1/green_car.jpeg");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.center {
+  text-align: center;
+}
+
+#start {
+  height: 35px;
+}
+
+#restart {
+  height: 35px;
+}
+
+
+
+
