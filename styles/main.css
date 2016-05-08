@@ -1,30 +1,23 @@
-/* +++++ INDEX.HTML STYLING ++++++ */
+// +++++ INDEX.HTML STYLING ++++++ */
 
 /* Landing Page */
-
-.landing-page {
-  /*background-image: url("../images/sunrise.jpg");*/
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.0),
-      rgba(0, 0, 0, 0.7)
-    ), url("../images/forrest-waterfall.jpg");
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
-  align-items: center;
-}
 
 /* End of Landing Page */
 
 /* Primary Nav Menu */
 
- nav.primary {
-  width: 100%;
-  text-align: center;
-  justify-content: center;
-  background-color: white;
+// nav.primary {
+//   width: 20%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
+// }
+
+#nav-box{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 nav.primary ul,
@@ -34,17 +27,17 @@ nav.primary ul li {
 
 nav.primary ul li {
   display: inline-block;
-  float: center;
-  position: relative;
 }
 
 nav.primary ul li a {
+  self-align: center;
   display: inline;
   line-height: 42px;
-  color: #567;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+  font-size: 120%;
   letter-spacing: 0.08em;
   padding: 0 14px;
 }
@@ -102,219 +95,73 @@ nav.primary ul li:hover > a {
 
 /* Header Box */
 
-.header-box {
-  width: 60%;
-  //color: white;
-  text-align: center;
-  line-height: 28px;
-  border: 3px solid white;
-  padding: 0px;
-  margin-top: 20%;
-  background-color: rgba(0, 0, 0, 0.2);
-  //background-color: rgba(0, 0, 0, 0.4);
+.uber {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
-#passion {
-color: white;
-font-size: 180%;
-//font-weight: bold;
-/*font-family: 'Courgette', cursive;*/
-font-family: 'Arapey', serif;
-//font-style: italic;
-margin-top: 10px;
-margin-bottom: 10px;
+#landing-page {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0)
+    ), url("../images/josh-bw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+#top-box {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#top-text-container {
+  text-align: center;
+  background-color: hsl(210, 100%, 50%);
+  opacity: 0.5;
+  margin-left: 60%
+}
+
+#name {
+  margin-bottom: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 350%;
 }
 
 #developer {
-color: white;
-//font-size: 100%;
-//font-size:200;
-font-size: 180%;
-text-transform: uppercase;
-margin: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 220%;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #training {
+  font-weight: bold;
+  color: white;
+  font-size: 200%;
+  margin-bottom: 0;
+}
+
+#bottom-box {
+  height: 50%;
+}
+
+#bottom-text-container {
+}
+
+
+
+.main-text {
+//text-transform: uppercase;
 color: white;
-font-size: 180%;
-font-family: 'Arapey', serif;
-//font-style: italic;
-margin-top: 10px;
-margin-bottom: 15px;
-}
-
-/* Larger than mobile */
-//@media (min-width: 400px) {
-  /* Header Box */
-
-//   .header-box {
-//     width: 70%;
-//     color: white;
-//     text-align: center;
-//     line-height: 28px;
-//     border: 5px solid white;
-//     padding-top: 30px;
-//     margin-top: 20%;
-//     background-color: rgba(0, 0, 0, 0.2);
-//     //background-color: rgba(0, 0, 0, 0.4);
-//   }
-
-//   .header-box p>em {
-//   color: white;
-//   font-size: 160%;
-//   //font-weight: bold;
-//   /*font-family: 'Courgette', cursive;*/
-//   font-family: 'Arapey', serif;
-//   }
-
-//   .header-box h5>strong {
-//   color: white;
-//   //font-size: 100%;
-//   //font-size:200;
-//   font-size: 200%;
-//   text-transform: uppercase;
-//   }
-
-//   .header-box p {
-//   color: white;
-//   font-size: 140%;
-//   }
-// }
-
-/* Larger than phablet */
-// @media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  .header-box {
-    width: 40%;
-    //color: white;
-    text-align: center;
-    line-height: 28px;
-    border: 4px solid white;
-    padding: 0px;
-    margin-top: 20%;
-    background-color: rgba(0, 0, 0, 0.2);
-    //background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  #passion {
-  color: white;
-  font-size: 200%;
-  //font-weight: bold;
-  /*font-family: 'Courgette', cursive;*/
-  font-family: 'Arapey', serif;
-  //font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  }
-
-  #developer {
-  color: white;
-  //font-size: 100%;
-  //font-size:200;
-  font-size: 200%;
-  text-transform: uppercase;
-  margin: 0;
-  }
-
-  #training {
-  color: white;
-  font-size: 200%;
-  font-family: 'Arapey', serif;
-  //font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-  .header-box {
-    width: 30%;
-    //color: white;
-    text-align: center;
-    line-height: 28px;
-    border: 4px solid white;
-    padding: 0px;
-    margin-top: 20%;
-    background-color: rgba(0, 0, 0, 0.2);
-    //background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  #passion {
-    color: white;
-    font-size: 300%;
-    //font-weight: bold;
-    /*font-family: 'Courgette', cursive;*/
-    font-family: 'Arapey', serif;
-    //font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  #developer {
-    color: white;
-    //font-size: 100%;
-    //font-size:200;
-    font-size: 300%;
-    text-transform: uppercase;
-    margin: 0;
-  }
-
-  #training {
-    color: white;
-    font-size: 300%;
-    font-family: 'Arapey', serif;
-    //font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-}
-
-// /* Larger than Desktop HD */
-@media (min-width: 1200px) {
-
-  .header-box {
-    width: 40%;
-    //color: white;
-    text-align: center;
-    line-height: 28px;
-    border: 4px solid white;
-    padding: 0px;
-    margin-top: 20%;
-    background-color: rgba(0, 0, 0, 0.9);
-    //background-color: rgba(0, 0, 0, 0.4);
-  }
-
-  #passion {
-    color: red;
-    font-size: 250%;
-    //font-weight: bold;
-    /*font-family: 'Courgette', cursive;*/
-    font-family: 'Arapey', serif;
-    //font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  #developer {
-    color: red;
-    //font-size: 100%;
-    //font-size:200;
-    font-size: 300%;
-    text-transform: uppercase;
-    margin: 0;
-  }
-
-  #training {
-    color: white;
-    font-size: 250%;
-    font-family: 'Arapey', serif;
-    //font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
+font-size: 300%;
+margin: 0;
 }
 
 
@@ -486,10 +333,14 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.black-border {
+  border: 1px solid black;
+}
+
 /* +++++++++++++ CSS FOR BLOG HOMEPAGE ++++++++++++++++ */
 
 
 
 
 
-/* +++++++++++++ END OF CSS FOR BLOG HOMEPAGE ++++++++++++++++ */
+/* +++++++++++++ END OF CSS FOR BLOG HOMEPAGE ++++++++++++++++
