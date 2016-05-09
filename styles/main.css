@@ -13,7 +13,7 @@
 //   justify-content: flex-end;
 // }
 
-#nav-box{
+.nav-box{
   height: 8vh;
   display: flex;
   align-items: center;
