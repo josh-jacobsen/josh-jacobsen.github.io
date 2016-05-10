@@ -6,12 +6,12 @@
 
 /* Primary Nav Menu */
 
-// nav.primary {
-//   width: 20%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: flex-end;
-// }
+nav.primary {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 .nav-box{
   //height: 7vh;
@@ -107,17 +107,17 @@ nav.primary ul li:hover > a {
       rgba(0, 0, 0, 0.0)
     ), url("../public/images/workstation/laptop.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
   height: 93vh;
 }
 
 #box {
-  //height: 93vh;
-  border: 1px solid white;
+  height: 93vh;
+  //border: 1px solid black;
 }
 
 #text-container {
-  border: 1px solid blue;
+  //border: 1px solid blue;
   margin-left: 52%;
   margin-right: 10%;
   margin-top: 10%;
