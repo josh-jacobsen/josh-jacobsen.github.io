@@ -14,7 +14,7 @@ nav.primary {
 }
 
 .nav-box{
-  //height: 7vh;
+  height: 7vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -33,11 +33,10 @@ nav.primary ul li a {
   self-align: center;
   display: inline;
   line-height: 42px;
-  color: black;
+  color: hsl(26, 5%, 29%);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  //font-size: 120%;
   letter-spacing: 0.08em;
   padding: 0 14px;
 }
@@ -104,16 +103,19 @@ nav.primary ul li:hover > a {
 #landing-page {
   background: linear-gradient(
       rgba(0, 0, 0, 0.0),
-      rgba(0, 0, 0, 0.0)
-    ), url("../public/images/workstation/laptop.jpg");
+      rgba(0, 0, 0, 0.2)
+    ), url("../public/images/workstation/laptop_and_pad.jpg");
   background-size: cover;
-  //background-repeat: no-repeat;
+  background-repeat: no-repeat;
   height: 93vh;
 }
 
-#box {
-  height: 93vh;
-  //border: 1px solid black;
+#top-box {
+  //border: 1px solid red;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
 }
 
 #text-container {
@@ -122,6 +124,11 @@ nav.primary ul li:hover > a {
   margin-right: 10%;
   margin-top: 10%;
   text-align: center;
+  //background-color: hsl(210, 100%, 50%);
+  //opacity: 0.5;
+  width: 30.6666666667%;
+  margin-top: 10%;
+  //margin-top: 5%;
 }
 
 #name {
@@ -129,22 +136,24 @@ nav.primary ul li:hover > a {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  font-size: 350%;
+  font-size: 310%;
+  letter-spacing: 1px;
 }
 
 #developer {
   //font-weight: bold;
   color: white;
-  font-size: 220%;
+  font-size: 200%;
   margin-bottom: 0;
-  //padding-left: 10px;
-  //padding-right: 10px;
+  letter-spacing: 1px;
 }
 
 #training {
   //font-weight: bold;
   color: white;
-  font-size: 200%;
+  font-size: 180%;
+  letter-spacing: 1px;
+
   margin-bottom: 0;
 }
 
@@ -204,32 +213,34 @@ margin: 0;
 }
 
 .section-heading {
+  font-weight: 400;
+  color: hsl(26, 5%, 29%);
   text-align: center;
   padding-top: 15px;
 }
 
 section .section-heading a {
-  color: black;
+  color: hsl(26, 5%, 29%);
   cursor: default;
 
 }
 
 section .section-heading a:visited {
-  color: black;
+  color: hsl(26, 5%, 29%);
 }
 
 section .section-heading a:hover {
-  color: black;
+  color: hsl(26, 5%, 29%);
   cursor: default;
 }
 
 a {
-  color: black;
+  color: hsl(26, 5%, 29%);
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: hsl(26, 5%, 29%);
 }
 
 
@@ -324,6 +335,10 @@ a:hover {
   margin: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .space-between-blog-posts {
   padding-bottom: 55px;
 }
@@ -340,7 +355,26 @@ a:hover {
 /* +++++++++++++ CSS FOR BLOG HOMEPAGE ++++++++++++++++ */
 
 
+#skills {
+  font-weight: 400;
+  color: hsl(26, 5%, 29%);
+}
+
+.para {
+  font-weight: 400;
+  //color: hsl(35, 8%, 39%);
+//  color: hsl(0, 0%, 38%);
+  color: hsl(26, 5%, 29%);
 
 
+}
+
+.prose {
+  font-weight: 300;
+  //color: hsl(35, 8%, 39%);
+//  color: hsl(0, 0%, 38%);
+  color: hsl(26, 5%, 29%);
+
+}
 
 /* +++++++++++++ END OF CSS FOR BLOG HOMEPAGE ++++++++++++++++

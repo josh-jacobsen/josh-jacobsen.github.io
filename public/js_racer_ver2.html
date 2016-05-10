@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submarine Captain</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="css/js_racer_ver2.css">
+
+</head>
+
+<body>
+
+  <div id="main-container">
+
+    <h1 class="center">Submarine Captain</h1>
+
+    <h3 class="center">Use the arrow keys to move</h3>
+
+
+    <div id="button-div">
+      <button id="start" type="button" onclick="start_game()">Start Game</button>
+      <button id="restart" type="button" onclick="restart()">Restart</button>
+    </div>
+
+    <div id="canvasContainer">
+
+      <canvas id="subCanvas" width="700" height="500"></canvas>
+
+    </div><!-- end of canvas container -->
+
+  </div><!-- end of main container -->
+
+  <audio id="missile_impact" src="sounds/missile_impact.mp3" type="audio/mpeg"></audio>
+
+  <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+
+  <script src="js/js_racer_ver2.js"></script>
+
+</body>
+
+</html>
