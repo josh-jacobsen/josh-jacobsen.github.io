@@ -132,20 +132,25 @@ nav.primary ul li:hover > a {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  font-size: 350%;
+  font-size: 310%;
+  letter-spacing: 1px;
 }
 
 #developer {
   //font-weight: bold;
   color: white;
-  font-size: 220%;
+  font-size: 200%;
   margin-bottom: 0;
+  letter-spacing: 1px;
+
 }
 
 #training {
   //font-weight: bold;
   color: white;
-  font-size: 200%;
+  font-size: 180%;
+  letter-spacing: 1px;
+
   margin-bottom: 0;
 }
 
