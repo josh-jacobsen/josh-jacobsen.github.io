@@ -33,7 +33,7 @@ nav.primary ul li a {
   self-align: center;
   display: inline;
   line-height: 42px;
-  color: black;
+  color: hsl(26, 5%, 29%);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -210,32 +210,34 @@ margin: 0;
 }
 
 .section-heading {
+  font-weight: 400;
+  color: hsl(26, 5%, 29%);
   text-align: center;
   padding-top: 15px;
 }
 
 section .section-heading a {
-  color: black;
+  color: hsl(26, 5%, 29%);
   cursor: default;
 
 }
 
 section .section-heading a:visited {
-  color: black;
+  color: hsl(26, 5%, 29%);
 }
 
 section .section-heading a:hover {
-  color: black;
+  color: hsl(26, 5%, 29%);
   cursor: default;
 }
 
 a {
-  color: black;
+  color: hsl(26, 5%, 29%);
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: hsl(26, 5%, 29%);
 }
 
 
@@ -330,6 +332,10 @@ a:hover {
   margin: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .space-between-blog-posts {
   padding-bottom: 55px;
 }
@@ -346,7 +352,26 @@ a:hover {
 /* +++++++++++++ CSS FOR BLOG HOMEPAGE ++++++++++++++++ */
 
 
+#skills {
+  font-weight: 400;
+  color: hsl(26, 5%, 29%);
+}
+
+.para {
+  font-weight: 400;
+  //color: hsl(35, 8%, 39%);
+//  color: hsl(0, 0%, 38%);
+  color: hsl(26, 5%, 29%);
 
 
+}
+
+.prose {
+  font-weight: 300;
+  //color: hsl(35, 8%, 39%);
+//  color: hsl(0, 0%, 38%);
+  color: hsl(26, 5%, 29%);
+
+}
 
 /* +++++++++++++ END OF CSS FOR BLOG HOMEPAGE ++++++++++++++++
