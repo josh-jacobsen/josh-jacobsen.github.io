@@ -17,7 +17,7 @@ nav.primary {
   height: 7vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 nav.primary ul,
@@ -98,6 +98,7 @@ nav.primary ul li:hover > a {
   width: 100%;
   max-width: 1680px;
   margin: 0 auto;
+  //border: 1px solid white;
 }
 
 #landing-page {
@@ -108,26 +109,28 @@ nav.primary ul li:hover > a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 93vh;
-}
-
-#top-box {
-  //border: 1px solid red;
-  height: 100%;
   display: flex;
   justify-content: center;
-  //align-items: center;
 }
 
+// #top-box {
+//   //border: 1px solid red;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   //align-items: center;
+// }
+
 #text-container {
-  //border: 1px solid blue;
-  margin-left: 52%;
-  margin-right: 10%;
   margin-top: 10%;
+  //margin-left: 52%;
+  //margin-right: 10%;
+  //margin-top: 10%;
   text-align: center;
   //background-color: hsl(210, 100%, 50%);
   //opacity: 0.5;
   width: 30.6666666667%;
-  margin-top: 10%;
+  //margin-top: 10%;
   //margin-top: 5%;
 }
 
