@@ -1,0 +1,13 @@
+h1 {
+  margin-left: 20%;
+}
+
+#div-one {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+p {
+  color: hsla(185, 100%, 32%, 1);
+}
