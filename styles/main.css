@@ -1,4 +1,4 @@
-// +++++ INDEX.HTML STYLING ++++++ */
+ /*+++++ INDEX.HTML STYLING ++++++ */
 
 /* Landing Page */
 
@@ -6,12 +6,12 @@
 
 /* Primary Nav Menu */
 
-nav.primary {
+/*nav.primary {
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-}
+}*/
 
 .nav-box{
   height: 7vh;
@@ -22,7 +22,7 @@ nav.primary {
 
 nav.primary ul,
 nav.primary ul li {
-  margin: 0px;
+  margin: 0;
 }
 
 nav.primary ul li {
@@ -98,7 +98,7 @@ nav.primary ul li:hover > a {
   width: 100%;
   max-width: 1680px;
   margin: 0 auto;
-  //border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 #landing-page {
@@ -113,25 +113,25 @@ nav.primary ul li:hover > a {
   justify-content: center;
 }
 
-// #top-box {
+/*// #top-box {
 //   //border: 1px solid red;
 //   height: 100%;
 //   display: flex;
 //   justify-content: center;
 //   //align-items: center;
-// }
+// }*/
 
 #text-container {
   margin-top: 10%;
-  //margin-left: 52%;
+  /*//margin-left: 52%;
   //margin-right: 10%;
-  //margin-top: 10%;
+  //margin-top: 10%;*/
   text-align: center;
-  //background-color: hsl(210, 100%, 50%);
-  //opacity: 0.5;
+  /*//background-color: hsl(210, 100%, 50%);
+  //opacity: 0.5;*/
   width: 30.6666666667%;
-  //margin-top: 10%;
-  //margin-top: 5%;
+  /*//margin-top: 10%;
+  //margin-top: 5%;*/
 }
 
 #name {
@@ -365,18 +365,26 @@ a:hover {
 
 .para {
   font-weight: 400;
-  //color: hsl(35, 8%, 39%);
-//  color: hsl(0, 0%, 38%);
-  color: hsl(26, 5%, 29%);
+  /*color: hsl(35, 8%, 39%);
+  color: hsl(0, 0%, 38%);*/
+  color: hsl(26, 5%, 28%);
+  /*color: hsl(26, 5%, 16%);*/
+
+  /*color: hsl(247, 23%, 19%);*/
+
 
 
 }
 
 .prose {
   font-weight: 300;
-  //color: hsl(35, 8%, 39%);
-//  color: hsl(0, 0%, 38%);
-  color: hsl(26, 5%, 29%);
+  /*color: hsl(35, 8%, 39%);
+  color: hsl(0, 0%, 38%);*/
+  /*color: hsl(26, 5%, 29%);*/
+  /*color: hsl(247, 23%, 19%);*/
+  /*color: hsl(26, 5%, 16%);*/
+  color: hsl(26, 5%, 17%);
+
 
 }
 

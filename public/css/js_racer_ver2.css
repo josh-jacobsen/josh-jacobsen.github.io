@@ -20,8 +20,8 @@ body {
 #sub {
   min-height: 100px;
   min-width: 100px;
-  //background-image: url("../images/impact.gif");
-  //background-image: url("../images/submarine.jpg");
+  /*background-image: url("../images/impact.gif");*/
+  /*background-image: url("../images/submarine.jpg");*/
   background-size: 100px 100px;
   background-repeat: no-repeat;
 }
@@ -29,8 +29,8 @@ body {
 #ship {
   min-height: 100px;
   min-width: 100px;
-  //background-image: url("../images/impact.gif");
-  //background-image: url("../images/ship.jpg");
+  /*background-image: url("../images/impact.gif");*/
+  /*background-image: url("../images/ship.jpg");*/
   background-size: 100px 100px;
   background-repeat: no-repeat;
 
@@ -74,7 +74,4 @@ body {
   height: 35px;
 }
 
-// +++++++ Canvas ++++++++++ //
-
-
-
+/*+++++++ Canvas ++++++++++ */
