@@ -394,17 +394,49 @@ a:hover {
     border-color: hsl(26, 5%, 29%);
 }
 
-.alt-button {
+.alt-button-1 {
+  height: 45px;
+  line-height: 38px;
+  font-size: 12px;
   color: white;
-  border-width: 2.5px;
+  border-width: 3px;
   border-color: white;
   margin-top: 15%;
   margin-right: 2%;
   margin-left: 2%;
+  width: 145px;
+  text-align: center;
+  padding: 0;
 }
 
-.alt-button:hover {
+.alt-button-2 {
+  height: 45px;
+  line-height: 39px;
+  font-size: 12px;
+  color: white;
+  border-width: 3px;
+  border-color: white;
+  margin-top: 15%;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 145px;
+  text-align: center;
+  padding: 0;
+}
+
+.alt-button-1:hover,
+.alt-button-2:hover {
   background-color: white;
+  border-color: hsl(26, 5%, 29%);
+
+}
+
+.button-1 {
+
+}
+
+.button-2 {
+
 }
 
 /*.button:hover,
