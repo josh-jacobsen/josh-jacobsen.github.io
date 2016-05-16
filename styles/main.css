@@ -96,7 +96,7 @@ nav.primary ul li:hover > a {
 
 .uber {
   width: 100%;
-  max-width: 1680px;
+  /*max-width: 1680px;*/
   margin: 0 auto;
   /*border: 1px solid white;*/
 }
@@ -367,10 +367,11 @@ a:hover {
   font-weight: 400;
   /*color: hsl(35, 8%, 39%);
   color: hsl(0, 0%, 38%);*/
-  color: hsl(26, 5%, 28%);
+  /*color: hsl(26, 5%, 28%);*/
   /*color: hsl(26, 5%, 16%);*/
 
   /*color: hsl(247, 23%, 19%);*/
+  color: hsl(26, 5%, 30%);
 
 
 
@@ -384,8 +385,19 @@ a:hover {
   /*color: hsl(247, 23%, 19%);*/
   /*color: hsl(26, 5%, 16%);*/
   color: hsl(26, 5%, 17%);
+}
 
-
+.ex-prose {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*color: hsl(35, 8%, 39%);
+  color: hsl(0, 0%, 38%);*/
+  /*color: hsl(26, 5%, 29%);*/
+  /*color: hsl(247, 23%, 19%);*/
+  /*color: hsl(26, 5%, 16%);*/
+  color: hsl(26, 5%, 30%);
+  /*color: hsl(26, 5%, 17%);*/
 }
 
 .main-button {
