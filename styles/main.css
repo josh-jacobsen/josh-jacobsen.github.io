@@ -33,7 +33,9 @@ nav.primary ul li a {
   self-align: center;
   display: inline;
   line-height: 42px;
-  color: hsl(26, 5%, 29%);
+  color: hsl(26, 5%, 20%);
+  /*color: hsl(26, 5%, 29%);*/
+
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -238,7 +240,9 @@ section .section-heading a:hover {
 }
 
 a {
+  /*color: yellow;*/
   color: hsl(26, 5%, 29%);
+
   text-decoration: none;
 }
 
@@ -361,6 +365,7 @@ a:hover {
 #skills {
   font-weight: 400;
   color: hsl(26, 5%, 29%);
+  /*color: yellow;*/
 }
 
 .para {
