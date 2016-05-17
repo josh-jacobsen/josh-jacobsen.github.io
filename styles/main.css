@@ -365,25 +365,11 @@ a:hover {
 
 .para {
   font-weight: 400;
-  /*color: hsl(35, 8%, 39%);
-  color: hsl(0, 0%, 38%);*/
-  /*color: hsl(26, 5%, 28%);*/
-  /*color: hsl(26, 5%, 16%);*/
-
-  /*color: hsl(247, 23%, 19%);*/
-  color: hsl(26, 5%, 30%);
-
-
-
+  color: hsl(26, 5%, 32%);
 }
 
 .prose {
   font-weight: 300;
-  /*color: hsl(35, 8%, 39%);
-  color: hsl(0, 0%, 38%);*/
-  /*color: hsl(26, 5%, 29%);*/
-  /*color: hsl(247, 23%, 19%);*/
-  /*color: hsl(26, 5%, 16%);*/
   color: hsl(26, 5%, 17%);
 }
 
@@ -391,13 +377,7 @@ a:hover {
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
-  /*color: hsl(35, 8%, 39%);
-  color: hsl(0, 0%, 38%);*/
-  /*color: hsl(26, 5%, 29%);*/
-  /*color: hsl(247, 23%, 19%);*/
-  /*color: hsl(26, 5%, 16%);*/
-  color: hsl(26, 5%, 30%);
-  /*color: hsl(26, 5%, 17%);*/
+  color: hsl(26, 5%, 29%);
 }
 
 .main-button {
